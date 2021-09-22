@@ -145,15 +145,19 @@ a {
   #cover {
     height: 150px;
     width: 110px;
-    background-color: brown;
+    background-color: white;
     border-radius: 10px;
     position: absolute;
-    display: flex;
-    border: 1px solid black;
-    padding: 3px;
-    background-image: url("../images/card-cover1.jpg");
+    /* border: 2px solid black; */
+    /* left: 300px; */
+    /* display: inline-block; */
+    /* padding: 3px; */
+    background-image: url("../images/card-cover.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
   }
-
+  
   .icard {
     height: 150px;
     width: 110px;
