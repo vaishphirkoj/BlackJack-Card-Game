@@ -1,0 +1,254 @@
+body {
+  /* background-image: radial-gradient(
+    circle farthest-corner at center,
+    rgba(35, 89, 137, 1) 25%,
+    rgba(21, 83, 137, 1) 50%,
+    rgba(8, 76, 137, 1) 75%,
+    rgba(0, 73, 137, 1) 100%
+  ); */
+  background: url("../images/girlanime.png");
+  /* background-color: rgba(8, 10, 8, 0.514); */
+  background-color: black;
+  /* opacity: 0.5; */
+  /* background-position: top; */
+  background-repeat: no-repeat;
+  /* background-position: left; */
+  /* background-size: auto; */
+  /* background-position: inherit; */
+}
+a {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#cover {
+  height: 150px;
+  width: 110px;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  /* border: 2px solid black; */
+  /* left: 300px; */
+  /* display: inline-block; */
+  /* padding: 3px; */
+  background-image: url("../images/card-cover.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.icard {
+  height: 150px;
+  width: 110px;
+  padding: 3px;
+  /* border: 2px solid black; */
+  /* background-color: rgb(212, 175, 55); */
+  /* background-image: radial-gradient(
+    circle farthest-corner at center,
+    rgba(212, 175, 55, 1) 10%,
+    rgba(242, 202, 83, 1) 20%,
+    rgba(255, 230, 110, 1) 35%,
+    rgba(255, 255, 137, 1) 45%,
+    rgba(255, 255, 165, 1) 55%,
+    rgba(255, 255, 193, 1) 65%,
+    rgba(255, 255, 222, 1) 80%,
+    rgba(255, 255, 251, 1) 90%,
+    rgba(255, 255, 255, 1) 100%
+  ); */
+  /* background-image: radial-gradient(
+    circle farthest-corner at center,
+    rgba(35, 89, 137, 1) 25%,
+    rgba(21, 83, 137, 1) 50%,
+    rgba(8, 76, 137, 1) 75%,
+    rgba(0, 73, 137, 1) 100%
+  ); */
+  border-radius: 10px;
+  /* position: absolute; */
+  /* left: 300px; */
+  /* display: inline-block; */
+  font-family: "Lato";
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
+  background-color: gainsboro;
+  /* box-shadow: grey; */
+}
+
+.top-card {
+  font-size: 20px;
+  line-height: 22px;
+  left: 2px;
+  top: 2px;
+}
+
+.content-card {
+  text-align: center;
+  font-size: 40px;
+}
+
+.bottom-card {
+  font-size: 20px;
+  line-height: 22px;
+  right: 2px;
+  bottom: 2px;
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
+
+.clubs,
+.spades {
+  /* color: black; */
+  color: #141313;
+}
+
+.hearts,
+.diams {
+  /* color: red; */
+  color: #93003b;
+}
+
+.hearts .suit::after {
+  content: "\2665";
+}
+
+.diams .suit::after {
+  content: "\2666";
+}
+
+.spades .suit::after {
+  content: "\2660";
+}
+
+.clubs .suit::after {
+  content: "\2663";
+}
+
+#dealerHolder,
+#playerHolder {
+  height: 140px;
+  width: 100%;
+  /* margin: auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* color: white; */
+}
+
+@media (max-width: 400px) {
+  .WalletBtn {
+    position: absolute;
+    top: 8%;
+    right: 25px;
+  }
+
+  #cover {
+    height: 150px;
+    width: 110px;
+    background-color: brown;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    border: 1px solid black;
+    padding: 3px;
+    background-image: url("../images/card-cover1.jpg");
+  }
+
+  .icard {
+    height: 150px;
+    width: 110px;
+    padding: 3px;
+    /* border: 2px solid black; */
+    /* background-color: rgb(212, 175, 55); */
+    /* background-image: radial-gradient(
+      circle farthest-corner at center,
+      rgba(212, 175, 55, 1) 10%,
+      rgba(242, 202, 83, 1) 20%,
+      rgba(255, 230, 110, 1) 35%,
+      rgba(255, 255, 137, 1) 45%,
+      rgba(255, 255, 165, 1) 55%,
+      rgba(255, 255, 193, 1) 65%,
+      rgba(255, 255, 222, 1) 80%,
+      rgba(255, 255, 251, 1) 90%,
+      rgba(255, 255, 255, 1) 100%
+    ); */
+    /* background-image: radial-gradient(
+      circle farthest-corner at center,
+      rgba(35, 89, 137, 1) 25%,
+      rgba(21, 83, 137, 1) 50%,
+      rgba(8, 76, 137, 1) 75%,
+      rgba(0, 73, 137, 1) 100%
+    ); */
+    border-radius: 10px;
+    /* position: absolute; */
+    /* left: 300px; */
+    /* display: inline-block; */
+    font-family: "Lato";
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.3);
+    background-color: gainsboro;
+    /* box-shadow: grey; */
+  }
+
+  .top-card {
+    font-size: 20px;
+    line-height: 10px;
+    left: 2px;
+    top: 2px;
+  }
+
+  .content-card {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .bottom-card {
+    font-size: 20px;
+    line-height: 10px;
+    right: 2px;
+    bottom: 2px;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+  }
+
+  .clubs,
+  .spades {
+    color: black;
+  }
+
+  .hearts,
+  .diams {
+    color: red;
+  }
+
+  .hearts .suit::after {
+    content: "\2665";
+  }
+
+  .diams .suit::after {
+    content: "\2666";
+  }
+
+  .spades .suit::after {
+    content: "\2660";
+  }
+
+  .clubs .suit::after {
+    content: "\2663";
+  }
+
+  #dealerHolder,
+  #playerHolder {
+    height: 140px;
+    width: 200px;
+    /* color: white; */
+  }
+}
+.card-body {
+  background-color: #d3d3d3;
+}
+.bi {
+  color: white;
+}
